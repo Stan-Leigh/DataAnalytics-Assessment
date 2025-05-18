@@ -1,4 +1,4 @@
-
+# Cowrywise Data Analyst Assessment
 Each SQL file contains a single, well-formatted query with inline comments to explain any complex logic.
 
 ---
@@ -66,9 +66,7 @@ Each SQL file contains a single, well-formatted query with inline comments to ex
 - Calculated tenure as number of complete months since `date_joined`.
 - Computed total confirmed deposits and transaction count.
 - Applied given formula:
-  \[
-  CLV = \left( \frac{total\_transactions}{tenure} \right) \times 12 \times 0.1\% \text{ of avg transaction value}
-  \]
+  $`CLV = \left( \frac{total\_transactions}{tenure} \right) \times 12 \times 0.1\% \text{ of the avg transaction value}`$
 - Converted the estimated CLV values from **kobo** to **naira** by dividing by 100.
 - Sorted users by estimated CLV in descending order as requested.
 
